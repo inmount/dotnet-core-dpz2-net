@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp2.2</TargetFramework>
-    <Version>1.0.1907.1</Version>
+    <Version>1.0.1907.2</Version>
     <Description>基于dpz2开发套件的网络操作扩展组件(.Net Core)</Description>
     <PackageLicenseFile>LICENSE</PackageLicenseFile>
     <Authors>d.p.z software studio</Authors>

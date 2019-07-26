@@ -8,7 +8,7 @@ using System.Net.Security;
 using System.Security.Cryptography.X509Certificates;
 using System.Text;
 
-namespace dpz.Net {
+namespace dpz2.Net {
 
     /// <summary>
     /// 超文本传输协议处理类
@@ -42,7 +42,7 @@ namespace dpz.Net {
                     ClientCertificateOptions = ClientCertificateOption.Automatic
                 };
 
-                var webRequest = new HttpClient(handler);
+                var webRequest = new System.Net.Http.HttpClient(handler);
                 respHTML = webRequest.GetStringAsync(url).GetAwaiter().GetResult();
                 //Console.WriteLine("xx");
 
